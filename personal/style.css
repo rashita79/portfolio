@@ -1,0 +1,202 @@
+/* Reset default margin and padding */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header */
+  .header-title {
+    text-align: center;
+    color: #f03fb5;
+    font-size: 30px;
+    padding: 20px 0;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Style the navigation */
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px; /* Increase the font size */
+  }
+  
+  /* Style the sections */
+  section {
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  section h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Style the photo and introduction box */
+  section#home {
+    display: flex;
+    align-items: center;
+    padding-top: 0;
+    background-color: #141414;
+    
+   
+    justify-content: center;
+   
+    height: 35vh; 
+  }
+  
+  section#home img {
+    max-width: 200px; /* Adjust the size as desired */
+    height: auto;
+    margin-right: 20px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    align-self: center;
+  }
+  
+ 
+  /* Additional Styles */
+  section#about {
+    align-items: center;
+    justify-content: center;background-color: #3c3c3c;
+    display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align the items horizontally */
+  justify-content: center; /* Center align the items vertically */
+  text-align: center; /* Center align the text */
+  }
+  
+  section#skills {
+    background-color: #1f1f1f;
+   
+    display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align the items horizontally */
+  justify-content: center; /* Center align the items vertically */
+  text-align: center; /* Center align the text */
+  }
+  
+  section#education {
+    background-color: #5c5c5c;display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align the items horizontally */
+    justify-content: center; /* Center align the items vertically */
+    text-align: center; /* Center align the text */
+  }
+  
+  section#contact {
+    background-color: #7a7a7a;display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align the items horizontally */
+    justify-content: center; /* Center align the items vertically */
+    text-align: center; /* Center align the text */
+  }
+  section#skills h2 {
+    color: #fff;
+  }
+  
+  section#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  
+  section#skills li {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #f03fb5;
+    color: #fff;
+    border-radius: 20px;
+    list-style: none;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  
+  section#about h2 {
+    color: #ed40a2;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about-item {
+    background-color: #f4f4f4;
+    color: #333333;
+    padding: 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    width: 400px;
+  }
+  
+  .about-item h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .about-item p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  
+ 
+  
+  section#contact h2 {
+    color: #333333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  ul.contact-icons {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  ul.contact-icons li {
+    margin: 0 10px;
+  }
+  
+  ul.contact-icons li a {
+    text-decoration: none;
+  }
+  
+  ul.contact-icons li img {
+    height: 40px;
+    width: 40px;
+  }
+  
+  ul.contact-icons li img[alt="LinkedIn"] {
+    /* Style for LinkedIn icon */
+  }
+  
+  ul.contact-icons li img[alt="GitHub"] {
+    /* Style for GitHub icon */
+  }
+  
+  ul.contact-icons li img[alt="Gmail"] {
+    /* Style for Gmail icon */
+  }
+  
